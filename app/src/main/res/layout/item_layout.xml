@@ -7,7 +7,7 @@
     <ImageView
         android:id="@+id/imageviewSender"
         android:layout_width="0dp"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:scaleType="fitCenter"
         android:layout_weight="1"
         android:contentDescription="@string/sender_image"/>
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:text="@string/sender_email_sample"
+                android:text="@string/sender_imail_sample"
                 android:textSize="18sp"
                 android:textColor="@color/black"/>
             <View
@@ -50,7 +50,7 @@
                 android:id="@+id/textviewEmailContent"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/text_content_sample"
+                android:text="@string/content_sample"
                 android:textSize="16sp"/>
             <View
                 android:layout_width="0dp"
@@ -62,10 +62,8 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_star_24"
                 android:layout_gravity="center"
-                android:contentDescription="@string/default_importance"
+                android:contentDescription="@string/image_important"
                 />
         </LinearLayout>
     </LinearLayout>
-
-
 </LinearLayout>

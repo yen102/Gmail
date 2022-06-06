@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Gmail</string>
     <string name="floatButtonDes">Create new email</string>
+    <string name="sender_image">sender image</string>
+    <string name="sender_imail_sample">Hoang</string>
+    <string name="time_sample">12:57PM</string>
+    <string name="content_sample">Hello there</string>
+    <string name="image_important">image important</string>
 </resources>
